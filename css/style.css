@@ -1,0 +1,35 @@
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 26px;
+}
+
+h3 {
+  font-size: 22px;
+}
+
+p,
+label,
+input {
+  font-size: 16px;
+}
+
+body {
+  background-color: rgb(71, 67, 80);
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: rgb(255, 252, 242);
+}
+
+#formContainer {
+  background-color: rgb(255, 252, 242);
+  color: rgb(71, 67, 80);
+  padding: 10px 20px 10px 20px;
+  margin: 10px 10% 10px 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 10px;
+}

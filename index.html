@@ -1,0 +1,57 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>Survey Form</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <h1 id="title">Survey Form<h1>
+
+  <div id="formContainer">
+
+    <p id="description">Let us know how we can improve.</p>
+
+    <form id="survey-form">
+
+      <div id="inputName" class="labels">
+        <label id="label-name" for="name">Name: </label>
+        <input name="name" placeholder="Enter your name" type="text" required>
+      </div>
+
+      <div id="inputEmail" class="labels">
+        <label id="label-email" for="email">Email: </label>
+        <input name="email" placeholder="Enter your email" type="text" required>
+      </div>
+
+      <div id="inputAge" class="labels">
+        <label id="label-age" for="dob">Age: </label>
+        <input name="dob" placeholder="Enter your age" type="number" required>
+      </div>
+
+      <div id="inputRole" class="labels">
+        <label id="label-role" for="role">Job Role: </label>
+          <select id="dropdown" name="role">
+            <option selected="selected">Select an option...</option>
+            <option value="student">Student</option>
+            <option value="student">Employed Full Time</option>
+            <option value="student">Employed Part Time</option>
+            <option value="student">Student / Full Time Learner</option>
+          </select>
+      </div>
+
+    </form>
+
+  </div>
+
+
+</body>
+
+</html>
